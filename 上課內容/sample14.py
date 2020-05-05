@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue May  5 21:17:38 2020
-
-@author: roberthsu2003
+這個範例,是說明
 """
+b = 10
 
 def turbo(s):
-    s[0] += 10;
-    s[1] += 10;
+    print('b',b)
+    print('c',c)
+    s[0] += 10
+    s[1] += 10
 
 if __name__ == "__main__":
+    c=10
     speed = [50, 60]
     turbo(speed)
     print('speed[0]',speed[0])
