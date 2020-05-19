@@ -9,4 +9,8 @@ Created on Tue May 19 19:25:41 2020
 class Student:
     def __init__(self):
         print("Student被建立了")
+    
+    def test(self):
+        print('test')
+
         
