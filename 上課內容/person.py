@@ -12,5 +12,7 @@ def sayHello():
 #module內的類別
 class Person:
     #建立自訂的初始化
-    def __init__(self):
+    def __init__(self,name):
         print("建立了一個實體")
+        #建立一個實體的屬性
+        self.name = name;
