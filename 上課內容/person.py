@@ -16,3 +16,7 @@ class Person:
         print("建立了一個實體")
         #建立一個實體的屬性
         self.name = name;
+    
+    #實體方法
+    def printName(self):
+        print('我的名字是',self.name)

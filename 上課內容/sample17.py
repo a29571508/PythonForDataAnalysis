@@ -10,6 +10,6 @@ ps.sayHello()
 
 person1 = ps.Person('robert')
 person2 = ps.Person('jenny')
-print('person1的name',person1.name)
-print('person2的name',person2.name)
+person1.printName()
+person2.printName()
 
