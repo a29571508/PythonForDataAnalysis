@@ -8,3 +8,6 @@ Created on Mon May 25 19:22:50 2020
 
 def sayHello():
     print("sayHello!")
+
+class Person:
+    pass;
